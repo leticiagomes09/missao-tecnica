@@ -143,3 +143,10 @@ console.log("Parte do inventario Beta:", inventarioBeta.slice(0, 5));
 // 14 
 // Separando o array 
 console.log("Parte do inventario Alpha:", inventarioAlpha.slice(15, 25));
+
+// 15 
+// Substituindo item no array 
+inventarioAlpha[5] = ["Escudo de Luz", "Vênus", 4700];
+
+console.table(inventarioAlpha);
+
