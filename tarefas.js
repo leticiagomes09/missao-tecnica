@@ -109,3 +109,10 @@ inventarioBeta.unshift(itemDestacado);
 inventarioBeta.splice(6, 1)
 
 console.table(inventarioBeta);
+
+// 07 
+// Removendo o primeiro item 
+ itemRemovido = inventarioAlpha.shift();
+
+console.table(inventarioAlpha);
+console.log("item removido:", itemRemovido);
