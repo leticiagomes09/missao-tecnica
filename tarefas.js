@@ -139,3 +139,7 @@ console.log("Parte do inventario Beta:", inventarioBeta.slice(0, 10).join("; "))
 // 13 
 // Separando o array 
 console.log("Parte do inventario Beta:", inventarioBeta.slice(0, 5));
+
+// 14 
+// Separando o array 
+console.log("Parte do inventario Alpha:", inventarioAlpha.slice(15, 25));
