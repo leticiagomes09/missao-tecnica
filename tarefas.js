@@ -161,3 +161,13 @@ console.log(`Itens removidos: ${itemRemovido1} , ${itemRemovido2}`);
 // 17 
 // Combinando dois arrays 
 console.log("inventario combinado:", inventarioAlpha.concat(inventarioBeta));
+
+// 18 
+// Separando od 5 primeiros itens de cada array 
+let primeirosDoAlpha = inventarioAlpha.slice(0, 5);
+let primeirosDoBeta = inventarioBeta.slice(0, 5); 
+
+// Combinando os primeiros itens 
+let primeirosItensjuntos = primeirosDoAlpha.concat(primeirosDoBeta); 
+
+console.log("Primeiros itens juntos:" , primeirosItensjuntos);
