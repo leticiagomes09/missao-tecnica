@@ -150,3 +150,10 @@ inventarioAlpha[5] = ["Escudo de Luz", "Vênus", 4700];
 
 console.table(inventarioAlpha);
 
+// 16 
+// Removendo dis itens do array 
+let itemRemovido1 = inventarioBeta.splice(14, 1);
+let itemRemovido2 = inventarioBeta.splice(15, 1);
+
+console.table(inventarioBeta);
+console.log(`Itens removidos: ${itemRemovido1} , ${itemRemovido2}`);
