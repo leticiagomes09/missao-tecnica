@@ -58,11 +58,26 @@ let inventarioAlpha =  [
   ];
 
   // 01 
-
   // Removendo o ultimo item 
+
 let itemRemovido = inventarioAlpha.pop();
 
 console.table(inventarioAlpha);
-
 console.log("Item removido: ", itemRemovido);
 
+// 02 
+// Removendo o ultimo item 
+
+itemRemovido = inventarioBeta.pop();
+
+console.table(inventarioBeta);
+console.log("Item removido: ", itemRemovido);
+
+// 03 
+// Adicionando tres  novos artefatos 
+
+inventarioAlpha.push(["Artefato 01", "planetas", 12345]);
+inventarioAlpha.push(["Artefato 02", "estrelas", 67890]);
+inventarioAlpha.push(["Artefato 01", "galaxias", 24680]);
+
+console.table(inventarioAlpha);
