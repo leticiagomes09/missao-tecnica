@@ -99,3 +99,13 @@ inventarioAlpha.unshift(itemDestacado);
 inventarioAlpha.splice(23, 1)
 
 console.table(inventarioAlpha);
+
+// 06 
+// Adicionando item no inicio 
+ itemDestacado = inventarioBeta[5];
+inventarioBeta.unshift(itemDestacado);
+
+// Removendo conforme o indice 
+inventarioBeta.splice(6, 1)
+
+console.table(inventarioBeta);
