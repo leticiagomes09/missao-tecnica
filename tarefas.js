@@ -171,3 +171,8 @@ let primeirosDoBeta = inventarioBeta.slice(0, 5);
 let primeirosItensjuntos = primeirosDoAlpha.concat(primeirosDoBeta); 
 
 console.log("Primeiros itens juntos:" , primeirosItensjuntos);
+
+// 19 
+let inventarioEmCaps = inventarioBeta.map(itens => itens.toUpperCase());
+
+console.log("Inventario em maiúsculas:", inventarioEmCaps);
