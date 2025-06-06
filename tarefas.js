@@ -116,3 +116,11 @@ console.table(inventarioBeta);
 
 console.table(inventarioAlpha);
 console.log("item removido:", itemRemovido);
+
+// 08 
+// Removendo o primeiro item 
+itemRemovido = inventarioBeta.shift();
+
+console.table(inventarioBeta);
+console.log("item removido:", itemRemovido);
+
