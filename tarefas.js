@@ -90,4 +90,12 @@ inventarioBeta.push(["Artefato 02", "Buraco de minhoca", 24680]);
 
 console.table(inventarioBeta);
 
+// 05
+// Adicionando item no inicio 
+let itemDestacado = inventarioAlpha[22];
+inventarioAlpha.unshift(itemDestacado);
 
+// Removendo conforme o indice 
+inventarioAlpha.splice(23, 1)
+
+console.table(inventarioAlpha);
