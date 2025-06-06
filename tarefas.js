@@ -173,6 +173,21 @@ let primeirosItensjuntos = primeirosDoAlpha.concat(primeirosDoBeta);
 console.log("Primeiros itens juntos:" , primeirosItensjuntos);
 
 // 19 
-let inventarioEmCaps = inventarioBeta.map(itens => itens.toUpperCase());
+//let inventarioEmCaps = inventarioBeta.map(itens => itens.toUpperCase());
 
-console.log("Inventario em maiúsculas:", inventarioEmCaps);
+//console.log("Inventario em maiúsculas:", inventarioEmCaps);
+
+// 26 
+// Separa os 15 primeiros e inverte 
+primeirosDoAlpha = inventarioAlpha.slice(0,16); 
+
+// Inverte os 15 primeiros itens
+let inventarioInvertida = primeirosDoAlpha.reverse();
+
+// Separa o resto do array 
+let restoDoInventario = inventarioAlpha.slice(17, 26);
+
+// Combina os dois 
+let uniao = inventarioInvertida.concat(restoDoInventario); 
+
+console.log("Simulação de viagem no tempo" , uniao);
