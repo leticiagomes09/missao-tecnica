@@ -74,10 +74,20 @@ console.table(inventarioBeta);
 console.log("Item removido: ", itemRemovido);
 
 // 03 
-// Adicionando tres  novos artefatos 
+// Adicionando tres novos artefatos 
 
 inventarioAlpha.push(["Artefato 01", "planetas", 12345]);
 inventarioAlpha.push(["Artefato 02", "estrelas", 67890]);
 inventarioAlpha.push(["Artefato 01", "galaxias", 24680]);
 
 console.table(inventarioAlpha);
+
+// 04 
+// Adicionando dois novos artefatos 
+
+inventarioBeta.push(["Artefato 01", "Aneis de saturno", 24680]);
+inventarioBeta.push(["Artefato 02", "Buraco de minhoca", 24680]);
+
+console.table(inventarioBeta);
+
+
