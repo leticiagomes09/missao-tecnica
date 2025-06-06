@@ -126,4 +126,8 @@ console.log("item removido:", itemRemovido);
 
 // 09 
 // Verificando item no array 
-console.log(`No inventario Beta inclui '“Relíquia de Zordon'? ${inventarioBeta.includes("Relíquia de Zordon")}`);
+console.log(`No inventario Beta inclui 'Relíquia de Zordon'? ${inventarioBeta.includes("Relíquia de Zordon")}`);
+
+// 10 
+// Verificando item no array 
+console.log(`No inventario Alpha inclui 'Nanofibra Luminosa'? ${inventarioAlpha.includes("Nanofibra Luminosa")}`);
