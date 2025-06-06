@@ -157,3 +157,7 @@ let itemRemovido2 = inventarioBeta.splice(15, 1);
 
 console.table(inventarioBeta);
 console.log(`Itens removidos: ${itemRemovido1} , ${itemRemovido2}`);
+
+// 17 
+// Combinando dois arrays 
+console.log("inventario combinado:", inventarioAlpha.concat(inventarioBeta));
