@@ -124,3 +124,6 @@ itemRemovido = inventarioBeta.shift();
 console.table(inventarioBeta);
 console.log("item removido:", itemRemovido);
 
+// 09 
+// Verificando item no array 
+console.log(`No inventario Beta inclui '“Relíquia de Zordon'? ${inventarioBeta.includes("Relíquia de Zordon")}`);
