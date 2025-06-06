@@ -135,3 +135,7 @@ console.log(`No inventario Alpha inclui 'Nanofibra Luminosa'? ${inventarioAlpha.
 // 12 
 // Separando os 10 primeiros itens do array por virgulas 
 console.log("Parte do inventario Beta:", inventarioBeta.slice(0, 10).join("; "));
+
+// 13 
+// Separando o array 
+console.log("Parte do inventario Beta:", inventarioBeta.slice(0, 5));
