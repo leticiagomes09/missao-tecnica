@@ -131,3 +131,7 @@ console.log(`No inventario Beta inclui 'Relíquia de Zordon'? ${inventarioBeta.i
 // 10 
 // Verificando item no array 
 console.log(`No inventario Alpha inclui 'Nanofibra Luminosa'? ${inventarioAlpha.includes("Nanofibra Luminosa")}`);
+
+// 12 
+// Separando os 10 primeiros itens do array por virgulas 
+console.log("Parte do inventario Beta:", inventarioBeta.slice(0, 10).join("; "));
